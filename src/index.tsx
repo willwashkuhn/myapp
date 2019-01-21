@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// Basic bootstrap
+import 'bootstrap/dist/css/bootstrap.css';
+
+// Custom bootstrap theme, requires node-sass
+// import './custom.scss';
+
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
